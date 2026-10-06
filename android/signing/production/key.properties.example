@@ -1,0 +1,5 @@
+# storeFile relatif terhadap android/. Isi kredensial dari penyimpanan aman.
+storeFile=app/upload-keystore.jks
+storePassword=
+keyAlias=
+keyPassword=

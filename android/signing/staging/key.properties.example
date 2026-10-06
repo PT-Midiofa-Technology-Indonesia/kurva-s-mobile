@@ -1,0 +1,5 @@
+# storeFile relatif terhadap android/. Isi kredensial dari penyimpanan aman.
+storeFile=signing/staging/curva-staging.jks
+storePassword=
+keyAlias=curva-staging
+keyPassword=

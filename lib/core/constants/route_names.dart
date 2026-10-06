@@ -1,0 +1,55 @@
+class RouteNames {
+  const RouteNames._();
+
+  static const splash = '/splash';
+  static const login = '/login';
+  static const dashboard = '/dashboard';
+  static const profile = '/profile';
+  static const profileFaq = '/profile/faq';
+  static const profileTermCondition = '/profile/term-condition';
+  static const profileChangePassword = '/profile/change-password';
+  static const expenseManagement = '/expense-management';
+  static const expenseReimbursementDetail = '/expense-management/detail';
+  static const expenseReimbursementCreate = '/expense-management/reimburse';
+  static const expenseReimbursementNonProject =
+      '/expense-management/reimburse/non-project';
+  static const inboundOutbound = '/inbound-outbound';
+  static const inboundDetail = '/inbound-outbound/detail';
+  static const loading = '/loading';
+  static const loadingDetail = '/loading/detail';
+  static const pickup = '/pickup';
+  static const pickupDetail = '/pickup/detail';
+  static const outbound = '/outbound';
+  static const outboundDetail = '/outbound/detail';
+  static const inventory = '/inventory';
+  static const inventoryDetail = '/inventory/detail';
+  static const inventoryAdjustmentHistory = '/inventory/adjustment-history';
+  static const inventoryEquipmentDetail = '/inventory/equipment-detail';
+  static const meetingTask = '/meeting/task';
+  static const meetingQuality = '/meeting/quality';
+  static const meetingMenu = '/meeting/menu';
+  static const meetingTaskList = '/meeting/task-list';
+  static const meetingAssignee = '/meeting/assignee';
+  static const meetingTaskAction = '/meeting/task-action';
+  static const meetingDetail = '/meeting/detail';
+  static const project = '/project';
+  static const projectMenu = '/project/menu';
+  static const projectTaskDetail = '/project/task-detail';
+  static const projectSubTask = '/project/sub-task';
+  static const projectSubTaskDetail = '/project/sub-task-detail';
+  static const projectManpowerReport = '/project/manpower-report';
+  static const projectTaskBreakdown = '/project/task-breakdown';
+  static const projectAssignee = '/project/assignee';
+  static const projectQcAssignmentPicker = '/project/qc-assignment-picker';
+  static const projectQualityControl = '/project/quality-control';
+  static const prospect = '/prospect';
+  static const prospectCreate = '/prospect/create';
+  static const prospectDetail = '/prospect/detail';
+  static const workforce = '/workforce';
+  static const workforceAttendanceDetail = '/workforce/attendance-detail';
+  static const workforceAttendanceSelfie = '/workforce/attendance-selfie';
+  static const workforceOvertimeDetail = '/workforce/overtime-detail';
+  static const workforceOvertimeRequest = '/workforce/overtime-request';
+  static const workforceLeaveDetail = '/workforce/leave-detail';
+  static const workforceLeaveRequest = '/workforce/leave-request';
+}
